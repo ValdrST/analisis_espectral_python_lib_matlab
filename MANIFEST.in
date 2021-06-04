@@ -1,0 +1,2 @@
+recursive-include analizador_web/static *
+recursive-include analizador_web/templates *

@@ -1,0 +1,21 @@
+version: "3.7"
+services:
+  web-stress:
+    build: .
+    container_name: analizador_web
+    networks:
+      - analizador-web
+    volumes:
+      - ./:/app
+      - /tmp:/tmp
+      - /var:/var
+    restart: unless-stopped
+    ports:
+      - 8084:3000
+    entrypoint: ['analizador_webWSGI']
+networks:
+  analizador-web:
+      driver: bridge
+      ipam:
+        config:
+          - subnet: 172.16.60.0/24

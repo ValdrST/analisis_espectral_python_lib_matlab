@@ -1,0 +1,261 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.one {
+  background-color: #18191A;
+  display: flex;
+}
+.card{
+  background-color: #242526;
+}
+
+.full {
+  height: 100%;
+  width: 100vw;
+}
+
+.one-section {
+  padding: 0 35px 0 35px;
+  width: 100%;
+}
+
+h1, h2 {
+  color: #fff;
+  margin: 0;
+}
+
+.card-text{
+  width: 50%;
+}
+
+.result-text{
+  width: 50%;
+}
+
+.card-archivo{
+  width: 50%;
+}
+
+.result-archivo{
+  width: 50%;
+}
+
+.card-title{
+  color: #aaa;
+}
+
+.title{
+  color: white;
+}
+.descargar-datos{
+  color: white;
+}
+.description{
+  color: white;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #198754;
+  border-radius: 15%;
+}
+.text-red{
+color: #B22222;
+}
+.text-green{
+color: #198754;
+}
+.overlay-negative{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B22222;
+  border-radius: 15%;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover .overlay-negative {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.textarea-input{
+  background-color: #4E4F50;
+  border: none;
+  color: #fff;
+}
+.textarea-input:focus{
+  background-color: #4E4F50;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+.pie{
+  background-color: #242526;
+  color: #ddd;
+}
+.pie a{
+  color: #aaa;
+}
+.p-color{
+  color: white;
+}
+.descargar-datos:hover{
+color: white;
+text-decoration: underline;
+}
+.descargar-datos{
+  color: #aaa;
+  }
+.descargar-datos:focus{
+  box-shadow: none;
+  }
+#resultado-2{
+  width: 100%;
+}
+.word-cloud img{
+  width: 100%;
+}
+.word-cloud {
+  width: 50%;
+}
+.word-cloud2 {
+  width: 100%;
+}
+#result-text1{
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+#result-text2{
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centrar contenedor vertical y horizontalmente */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.containerScroll {
+  overflow: auto;
+  flex-direction: column;
+}
+
+.containerScroll p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+/* Tamaño del scroll */
+.containerScroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+.containerScroll::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 4px;
+}
+
+.containerScroll::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.containerScroll::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+.containerScroll::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+.containerScroll::-webkit-scrollbar-track:hover, 
+.containerScroll::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+.accordion-button {
+  color: white;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #242526;
+  color: white;
+  border: none;
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: none;
+}
+.text-name{
+  text-align: center;
+}
+.imagen-contact{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.accordion-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
