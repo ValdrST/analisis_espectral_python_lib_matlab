@@ -1,9 +1,9 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="/home/valdr/Documentos/proyecto_matlab/analisis_espectral.prj" location="/home/valdr/Documentos/proyecto_matlab" name="analisis_espectral" target="target.ezdeploy.library" target-name="Library Compiler">
+  <configuration file="/home/valdr/Documentos/proyecto_matlab/matlab/src/analisis_espectral.prj" location="/home/valdr/Documentos/proyecto_matlab/matlab/src" name="analisis_espectral" target="target.ezdeploy.library" target-name="Library Compiler">
     <param.appname>analisis_espectral</param.appname>
     <param.icon />
     <param.icons />
-    <param.version>1.0</param.version>
+    <param.version>1.1</param.version>
     <param.authnamewatermark />
     <param.email />
     <param.company />
@@ -47,8 +47,8 @@ For details, see GettingStarted.html, distributed with this package, or the offi
     <param.support.packages />
     <param.namespace />
     <param.classorg />
-    <param.web.mcr>false</param.web.mcr>
-    <param.package.mcr>true</param.package.mcr>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
     <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
     <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
@@ -66,13 +66,12 @@ For details, see GettingStarted.html, distributed with this package, or the offi
     <param.net.tsa.namespace />
     <param.net.tsa.superclass>Class1</param.net.tsa.superclass>
     <param.net.tsa.metadata />
-    <param.net.tsa.metadata.assembly>/home/valdr/Documentos/proyecto_matlab</param.net.tsa.metadata.assembly>
+    <param.net.tsa.metadata.assembly>/home/valdr/Documentos/proyecto_matlab/matlab/src</param.net.tsa.metadata.assembly>
     <param.net.saved.interface />
     <param.cpp.api>option.cpp.all</param.cpp.api>
     <unset>
       <param.icon />
       <param.icons />
-      <param.version />
       <param.authnamewatermark />
       <param.email />
       <param.company />
@@ -93,6 +92,8 @@ For details, see GettingStarted.html, distributed with this package, or the offi
       <param.support.packages />
       <param.namespace />
       <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
       <param.no.mcr />
       <param.web.mcr.name />
       <param.package.mcr.name />
@@ -132,8 +133,8 @@ For details, see GettingStarted.html, distributed with this package, or the offi
     <fileset.examples />
     <fileset.documentation />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}/analisis_espectral/for_testing" name="setup.py" optional="false">/home/valdr/Documentos/proyecto_matlab/analisis_espectral/for_testing/setup.py</file>
-      <file location="${PROJECT_ROOT}/analisis_espectral/for_testing" name="analisis_espectral" optional="false">/home/valdr/Documentos/proyecto_matlab/analisis_espectral/for_testing/analisis_espectral</file>
+      <file location="${PROJECT_ROOT}/analisis_espectral/for_testing" name="setup.py" optional="false">/home/valdr/Documentos/proyecto_matlab/matlab/src/analisis_espectral/for_testing/setup.py</file>
+      <file location="${PROJECT_ROOT}/analisis_espectral/for_testing" name="analisis_espectral" optional="false">/home/valdr/Documentos/proyecto_matlab/matlab/src/analisis_espectral/for_testing/analisis_espectral</file>
     </build-deliverables>
     <workflow />
     <matlab>

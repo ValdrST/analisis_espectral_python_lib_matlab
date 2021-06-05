@@ -5,4 +5,3 @@ from .core import Server
 application = Server("analizador_web").app
 def main():
   application.run(debug=True)
-  print("Hola mundo0o")

@@ -1,7 +1,7 @@
 FROM python:3.8
 WORKDIR /runtime
 COPY ./matlab/runtime/analisis_espectral/for_redistribution/ /runtime/
-RUN ./MyAppInstaller_web.install -mode silent -agreeToLicense yes
+RUN ./MyAppInstaller_web.install -agreeToLicense yes -mode silent
 RUN rm MyAppInstaller_web.install
 WORKDIR /applib
 COPY ./matlab/runtime/analisis_espectral/for_redistribution_files_only/ /applib/

@@ -9,7 +9,7 @@ from math import pi
 Se requiere añadir al LD_LIBRARY_PATH la ruta del runtime que se instala
 '''
 import os
-os.environ['LD_LIBRARY_PATH'] = '/usr/local/MATLAB/MATLAB_Runtime/v910/runtime/glnxa64/'
+os.environ['LD_LIBRARY_PATH'] = '/usr/local/MATLAB/MATLAB_Runtime/v910/runtime/glnxa64'
 import analisis_espectral
 
 class Graficador():
@@ -29,6 +29,7 @@ class Graficador():
     plt.savefig(self.out_file)
     plt.close()
   
+
   def get_data(self, filename):
     ae = analisis_espectral.initialize()
     res = ae.analisis_espectral(filename, nargout=2)
