@@ -12,8 +12,8 @@ services:
     restart: unless-stopped
     ports:
       - 8084:3000
-    #entrypoint: ['analizador_webWSGI']
-    entrypoint: ['/bin/bash', 'run.sh']
+    entrypoint: ['analizador_webWSGI']
+    #entrypoint: ['/bin/bash', 'run.sh']
 networks:
   analizador-web:
       driver: bridge
